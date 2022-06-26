@@ -10,18 +10,6 @@ import SwiftCSV
 import CoreData
 import SwiftUI
 
-//let metraBaseString: String = "https://gtfsapi.metrarail.com/gtfs"
-//let metraClientKey = "2fbb8926df23765437c88363a228d70a"
-//let metraSecretKey = "aa81976c54adda9c316e9bb34cdcba31"
-//
-//let ctaBusBase = "http://www.ctabustracker.com/bustime/api/v2"
-//let ctaBusKey = "tRdG7PFxURAeggSdNVRrX2KMh"
-//let ctaBusKeyAlt = "mBgpGDuwnvHnkyun6S3k9zX8j"
-//
-//let ctaTrainBase = "http://lapi.transitchicago.com/api/1.0"
-//let ctaTrainKey = "3fcd1fa1dd4c4d7aa38454cc83b11ea0"
-//let ctaTrainKeyAlt = "f2d8efbe05d5480a98d1f6a7655bb91c"
-
 // let ctaTrainStopsBase = "https://data.cityofchicago.org/resource/8pix-ypme.json"
 
 //let dateformatter = DateFormatter()
