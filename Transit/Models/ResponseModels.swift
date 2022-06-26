@@ -10,16 +10,16 @@ import MyFirstPackage
 
 
 let metraBaseString: String = "https://gtfsapi.metrarail.com/gtfs"
-let metraClientKey = "2fbb8926df23765437c88363a228d70a"
-let metraSecretKey = "aa81976c54adda9c316e9bb34cdcba31"
+let metraClientKey = "<METRA API CLIENT KEY>"
+let metraSecretKey = "<METRA API SECRET KEY"
 
 let ctaBusBase = "http://www.ctabustracker.com/bustime/api/v2"
-let ctaBusKey = "tRdG7PFxURAeggSdNVRrX2KMh"
-let ctaBusKeyAlt = "mBgpGDuwnvHnkyun6S3k9zX8j"
+let ctaBusKey = "CTA BUS TRACKER KEY"
+let ctaBusKeyAlt = "CTA BUS TRACKER ALT KEY"
 
 let ctaTrainBase = "https://lapi.transitchicago.com/api/1.0"
-let ctaTrainKey = "3fcd1fa1dd4c4d7aa38454cc83b11ea0"
-let ctaTrainKeyAlt = "f2d8efbe05d5480a98d1f6a7655bb91c"
+let ctaTrainKey = "CTA TRAIN TRACKER KEY"
+let ctaTrainKeyAlt = "CTA TRAIN TRACKER ALT KEY"
 
 protocol IsPredictionResponseType {
     var isPrediction: Bool { get }
