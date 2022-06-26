@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="TransitData-v1">
+    <entity name="Route" representedClassName="Route" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="textColor" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="RouteTransfer" representedClassName="RouteTransfer" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="locationType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="routeId" optional="YES" attributeType="String"/>
+        <attribute name="stopId" optional="YES" attributeType="String"/>
+        <attribute name="stopName" optional="YES" attributeType="String"/>
+        <attribute name="transfers" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Stop" representedClassName="Stop" syncable="YES" codeGenerationType="class">
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isBusStop" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isParentStation" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isTrainStop" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lat" optional="YES" attributeType="String"/>
+        <attribute name="locationType" optional="YES" attributeType="String"/>
+        <attribute name="lon" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="parentId" optional="YES" attributeType="String"/>
+        <attribute name="wheelchairBoarding" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="TrainStop" representedClassName="TrainStop" syncable="YES" codeGenerationType="class">
+        <attribute name="ada" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="blue" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="brown" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="descriptiveName" optional="YES" attributeType="String"/>
+        <attribute name="directionId" optional="YES" attributeType="String"/>
+        <attribute name="green" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="mapId" optional="YES" attributeType="String"/>
+        <attribute name="orange" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="pink" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="red" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="stationName" optional="YES" attributeType="String"/>
+        <attribute name="stopName" optional="YES" attributeType="String"/>
+        <attribute name="yellow" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Route" positionX="-72.20703125" positionY="-224.9401397705078" width="128" height="118"/>
+        <element name="RouteTransfer" positionX="21.0556640625" positionY="-27.6212158203125" width="148.2371215820312" height="163"/>
+        <element name="Stop" positionX="0.7144775390625" positionY="155.0985412597656" width="128" height="208"/>
+        <element name="TrainStop" positionX="-168.0294189453125" positionY="-43.93856811523438" width="128" height="239"/>
+    </elements>
+</model>

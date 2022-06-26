@@ -7,18 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22F932867C26080E38AB802D /* Pods_Transit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5747F0E6CCD8694D1CB58645 /* Pods_Transit.framework */; };
+		3E1B4A6C285BEB5100174199 /* TransitDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E1B4A6A285BEB5100174199 /* TransitDataModel.xcdatamodeld */; };
+		3E20EF1A2855055F006E11CE /* calendar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E20EF1028550558006E11CE /* calendar.txt */; };
+		3E20EF1B2855055F006E11CE /* frequencies.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E20EF1128550558006E11CE /* frequencies.txt */; };
+		3E20EF1C2855055F006E11CE /* transfers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E20EF1228550558006E11CE /* transfers.txt */; };
+		3E20EF1E2855055F006E11CE /* calendar_dates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E20EF1428550558006E11CE /* calendar_dates.txt */; };
+		3E20EF1F2855055F006E11CE /* routes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E20EF1528550558006E11CE /* routes.txt */; };
+		3E20EF202855055F006E11CE /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E20EF1628550558006E11CE /* stops.txt */; };
+		3E20EF2828551325006E11CE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E20EF2728551325006E11CE /* CoreDataManager.swift */; };
+		3E20EF4928554164006E11CE /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E20EF4828554164006E11CE /* DataModels.swift */; };
+		3E20EF4B2855577B006E11CE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E20EF4A2855577B006E11CE /* LocationManager.swift */; };
+		3E20EF602855A888006E11CE /* train_stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E20EF5F2855A888006E11CE /* train_stops.txt */; };
+		3E3614E02861606F00A019D0 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3614D42861606E00A019D0 /* Roboto-Bold.ttf */; };
+		3E3614E12861606F00A019D0 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3614D52861606E00A019D0 /* Roboto-ThinItalic.ttf */; };
+		3E3614E22861606F00A019D0 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3614D62861606E00A019D0 /* Roboto-Thin.ttf */; };
+		3E3614E32861606F00A019D0 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3614D72861606E00A019D0 /* Roboto-Italic.ttf */; };
+		3E3614E42861606F00A019D0 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3614D82861606E00A019D0 /* Roboto-MediumItalic.ttf */; };
+		3E3614E52861606F00A019D0 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3614D92861606E00A019D0 /* Roboto-BlackItalic.ttf */; };
+		3E3614E62861606F00A019D0 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3614DA2861606F00A019D0 /* Roboto-BoldItalic.ttf */; };
+		3E3614E72861606F00A019D0 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3614DB2861606F00A019D0 /* Roboto-LightItalic.ttf */; };
+		3E3614E82861606F00A019D0 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3614DC2861606F00A019D0 /* Roboto-Regular.ttf */; };
+		3E3614E92861606F00A019D0 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3614DD2861606F00A019D0 /* Roboto-Black.ttf */; };
+		3E3614EA2861606F00A019D0 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3614DE2861606F00A019D0 /* Roboto-Light.ttf */; };
+		3E3614EB2861606F00A019D0 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3614DF2861606F00A019D0 /* Roboto-Medium.ttf */; };
+		3E41547E2854EC3900D2A0A1 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41547D2854EC3900D2A0A1 /* Functions.swift */; };
 		3E619503284B02FA006398DD /* TransitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E619502284B02FA006398DD /* TransitApp.swift */; };
 		3E619505284B02FA006398DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E619504284B02FA006398DD /* ContentView.swift */; };
 		3E619507284B02FD006398DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E619506284B02FD006398DD /* Assets.xcassets */; };
 		3E61950A284B02FD006398DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E619509284B02FD006398DD /* Preview Assets.xcassets */; };
+		3E619515284B037C006398DD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E619514284B037C006398DD /* Utils.swift */; };
+		3E619517284B04EA006398DD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E619516284B04EA006398DD /* NetworkManager.swift */; };
+		3E64A62B2859281100901447 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E64A6272859264500901447 /* RobotoCondensed-Regular.ttf */; };
+		3E64A62C2859281100901447 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E64A6282859264500901447 /* RobotoCondensed-Bold.ttf */; };
+		3E64A62D2859281100901447 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E64A62A2859264600901447 /* RobotoCondensed-BoldItalic.ttf */; };
+		3E64A62E2859281100901447 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E64A6262859264500901447 /* RobotoCondensed-Italic.ttf */; };
+		3E64A62F2859281100901447 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E64A6252859264500901447 /* RobotoCondensed-LightItalic.ttf */; };
+		3E64A6302859281100901447 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E64A6292859264500901447 /* RobotoCondensed-Light.ttf */; };
+		3EDCBEC1286029840096AEA2 /* MapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDCBEC0286029840096AEA2 /* MapButton.swift */; };
+		3EE570F8285474A10049490B /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE570F7285474A10049490B /* ResponseModels.swift */; };
+		3EE84B8D2860EB370027EFFB /* StopDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE84B8C2860EB370027EFFB /* StopDetailsView.swift */; };
+		3EE84B902860F48E0027EFFB /* ViewMods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE84B8F2860F48E0027EFFB /* ViewMods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30B4CE72110E7DF2E659F9B2 /* Pods-Transit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transit.debug.xcconfig"; path = "Target Support Files/Pods-Transit/Pods-Transit.debug.xcconfig"; sourceTree = "<group>"; };
+		3E1B4A6B285BEB5100174199 /* TransitDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TransitDataModel.xcdatamodel; sourceTree = "<group>"; };
+		3E20EF1028550558006E11CE /* calendar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar.txt; sourceTree = "<group>"; };
+		3E20EF1128550558006E11CE /* frequencies.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frequencies.txt; sourceTree = "<group>"; };
+		3E20EF1228550558006E11CE /* transfers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transfers.txt; sourceTree = "<group>"; };
+		3E20EF1428550558006E11CE /* calendar_dates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar_dates.txt; sourceTree = "<group>"; };
+		3E20EF1528550558006E11CE /* routes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routes.txt; sourceTree = "<group>"; };
+		3E20EF1628550558006E11CE /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
+		3E20EF2728551325006E11CE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = Transit/CoreDataManager.swift; sourceTree = SOURCE_ROOT; };
+		3E20EF4828554164006E11CE /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		3E20EF4A2855577B006E11CE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		3E20EF5F2855A888006E11CE /* train_stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = train_stops.txt; sourceTree = "<group>"; };
+		3E3614D42861606E00A019D0 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../../../../Downloads/Roboto,Roboto_Condensed/Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		3E3614D52861606E00A019D0 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "../../../../../../../Downloads/Roboto,Roboto_Condensed/Roboto/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3E3614D62861606E00A019D0 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "../../../../../../../Downloads/Roboto,Roboto_Condensed/Roboto/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		3E3614D72861606E00A019D0 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "../../../../../../../Downloads/Roboto,Roboto_Condensed/Roboto/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		3E3614D82861606E00A019D0 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "../../../../../../../Downloads/Roboto,Roboto_Condensed/Roboto/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3E3614D92861606E00A019D0 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "../../../../../../../Downloads/Roboto,Roboto_Condensed/Roboto/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3E3614DA2861606F00A019D0 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BoldItalic.ttf"; path = "../../../../../../../Downloads/Roboto,Roboto_Condensed/Roboto/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3E3614DB2861606F00A019D0 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "../../../../../../../Downloads/Roboto,Roboto_Condensed/Roboto/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		3E3614DC2861606F00A019D0 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../../../Downloads/Roboto,Roboto_Condensed/Roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		3E3614DD2861606F00A019D0 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "../../../../../../../Downloads/Roboto,Roboto_Condensed/Roboto/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		3E3614DE2861606F00A019D0 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../../../../../Downloads/Roboto,Roboto_Condensed/Roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		3E3614DF2861606F00A019D0 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../../../../../Downloads/Roboto,Roboto_Condensed/Roboto/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		3E41547D2854EC3900D2A0A1 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		3E6194FF284B02FA006398DD /* Transit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E619502284B02FA006398DD /* TransitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitApp.swift; sourceTree = "<group>"; };
-		3E619504284B02FA006398DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E619504284B02FA006398DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		3E619506284B02FD006398DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E619509284B02FD006398DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E619514284B037C006398DD /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3E619516284B04EA006398DD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3E64A6252859264500901447 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		3E64A6262859264500901447 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		3E64A6272859264500901447 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		3E64A6282859264500901447 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		3E64A6292859264500901447 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		3E64A62A2859264600901447 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3E6674302867C72F00928516 /* MyFramework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyFramework; path = ../Packages/MyFramework; sourceTree = "<group>"; };
+		3EDCBEC0286029840096AEA2 /* MapButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapButton.swift; sourceTree = "<group>"; };
+		3EE570F7285474A10049490B /* ResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
+		3EE570F928547BC80049490B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3EE84B8C2860EB370027EFFB /* StopDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopDetailsView.swift; sourceTree = "<group>"; };
+		3EE84B8F2860F48E0027EFFB /* ViewMods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMods.swift; sourceTree = "<group>"; };
+		5747F0E6CCD8694D1CB58645 /* Pods_Transit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6E993EFD0FCDF563B694AA /* Pods-Transit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transit.release.xcconfig"; path = "Target Support Files/Pods-Transit/Pods-Transit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +104,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F932867C26080E38AB802D /* Pods_Transit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1973803888AE122F8AA906B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E6674302867C72F00928516 /* MyFramework */,
+				5747F0E6CCD8694D1CB58645 /* Pods_Transit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E20EF0F28550542006E11CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E64A6242859262F00901447 /* Fonts */,
+				3E20EF5F2855A888006E11CE /* train_stops.txt */,
+				3E20EF1428550558006E11CE /* calendar_dates.txt */,
+				3E20EF1028550558006E11CE /* calendar.txt */,
+				3E20EF1128550558006E11CE /* frequencies.txt */,
+				3E20EF1528550558006E11CE /* routes.txt */,
+				3E20EF1628550558006E11CE /* stops.txt */,
+				3E20EF1228550558006E11CE /* transfers.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		3E6194F6284B02FA006398DD = {
 			isa = PBXGroup;
 			children = (
 				3E619501284B02FA006398DD /* Transit */,
 				3E619500284B02FA006398DD /* Products */,
+				A07DD7B9E31180C0C43B8230 /* Pods */,
+				1973803888AE122F8AA906B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +156,20 @@
 		3E619501284B02FA006398DD /* Transit */ = {
 			isa = PBXGroup;
 			children = (
-				3E619502284B02FA006398DD /* TransitApp.swift */,
-				3E619504284B02FA006398DD /* ContentView.swift */,
-				3E619506284B02FD006398DD /* Assets.xcassets */,
+				3EE84B8E2860F44F0027EFFB /* Modifiers */,
+				3EE570F928547BC80049490B /* Info.plist */,
+				3E20EF0F28550542006E11CE /* Resources */,
+				3E619511284B0317006398DD /* Models */,
+				3E619510284B0307006398DD /* Views */,
 				3E619508284B02FD006398DD /* Preview Content */,
+				3E20EF2728551325006E11CE /* CoreDataManager.swift */,
+				3E20EF4A2855577B006E11CE /* LocationManager.swift */,
+				3E619516284B04EA006398DD /* NetworkManager.swift */,
+				3E41547D2854EC3900D2A0A1 /* Functions.swift */,
+				3E619514284B037C006398DD /* Utils.swift */,
+				3E619502284B02FA006398DD /* TransitApp.swift */,
+				3E619506284B02FD006398DD /* Assets.xcassets */,
+				3E1B4A6A285BEB5100174199 /* TransitDataModel.xcdatamodeld */,
 			);
 			path = Transit;
 			sourceTree = "<group>";
@@ -67,6 +182,67 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3E619510284B0307006398DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E619504284B02FA006398DD /* ContentView.swift */,
+				3EDCBEC0286029840096AEA2 /* MapButton.swift */,
+				3EE84B8C2860EB370027EFFB /* StopDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3E619511284B0317006398DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3EE570F7285474A10049490B /* ResponseModels.swift */,
+				3E20EF4828554164006E11CE /* DataModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E64A6242859262F00901447 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3E3614DD2861606F00A019D0 /* Roboto-Black.ttf */,
+				3E3614D92861606E00A019D0 /* Roboto-BlackItalic.ttf */,
+				3E3614DA2861606F00A019D0 /* Roboto-BoldItalic.ttf */,
+				3E3614DE2861606F00A019D0 /* Roboto-Light.ttf */,
+				3E3614DB2861606F00A019D0 /* Roboto-LightItalic.ttf */,
+				3E3614DF2861606F00A019D0 /* Roboto-Medium.ttf */,
+				3E3614D72861606E00A019D0 /* Roboto-Italic.ttf */,
+				3E3614D82861606E00A019D0 /* Roboto-MediumItalic.ttf */,
+				3E3614DC2861606F00A019D0 /* Roboto-Regular.ttf */,
+				3E3614D62861606E00A019D0 /* Roboto-Thin.ttf */,
+				3E3614D42861606E00A019D0 /* Roboto-Bold.ttf */,
+				3E3614D52861606E00A019D0 /* Roboto-ThinItalic.ttf */,
+				3E64A6282859264500901447 /* RobotoCondensed-Bold.ttf */,
+				3E64A62A2859264600901447 /* RobotoCondensed-BoldItalic.ttf */,
+				3E64A6262859264500901447 /* RobotoCondensed-Italic.ttf */,
+				3E64A6292859264500901447 /* RobotoCondensed-Light.ttf */,
+				3E64A6252859264500901447 /* RobotoCondensed-LightItalic.ttf */,
+				3E64A6272859264500901447 /* RobotoCondensed-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3EE84B8E2860F44F0027EFFB /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3EE84B8F2860F48E0027EFFB /* ViewMods.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		A07DD7B9E31180C0C43B8230 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30B4CE72110E7DF2E659F9B2 /* Pods-Transit.debug.xcconfig */,
+				FC6E993EFD0FCDF563B694AA /* Pods-Transit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +250,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E61950D284B02FD006398DD /* Build configuration list for PBXNativeTarget "Transit" */;
 			buildPhases = (
+				F0A9D30C12337CABC10C41E6 /* [CP] Check Pods Manifest.lock */,
 				3E6194FB284B02FA006398DD /* Sources */,
 				3E6194FC284B02FA006398DD /* Frameworks */,
 				3E6194FD284B02FA006398DD /* Resources */,
+				795C31048CD5030FF3D4EF10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Transit;
+			packageProductDependencies = (
+			);
 			productName = Transit;
 			productReference = 3E6194FF284B02FA006398DD /* Transit.app */;
 			productType = "com.apple.product-type.application";
@@ -125,20 +305,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E20EF1A2855055F006E11CE /* calendar.txt in Resources */,
+				3E20EF202855055F006E11CE /* stops.txt in Resources */,
+				3E64A62D2859281100901447 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				3E64A62E2859281100901447 /* RobotoCondensed-Italic.ttf in Resources */,
+				3E64A6302859281100901447 /* RobotoCondensed-Light.ttf in Resources */,
 				3E61950A284B02FD006398DD /* Preview Assets.xcassets in Resources */,
+				3E20EF1F2855055F006E11CE /* routes.txt in Resources */,
 				3E619507284B02FD006398DD /* Assets.xcassets in Resources */,
+				3E3614E32861606F00A019D0 /* Roboto-Italic.ttf in Resources */,
+				3E3614E22861606F00A019D0 /* Roboto-Thin.ttf in Resources */,
+				3E3614E52861606F00A019D0 /* Roboto-BlackItalic.ttf in Resources */,
+				3E3614E72861606F00A019D0 /* Roboto-LightItalic.ttf in Resources */,
+				3E20EF1B2855055F006E11CE /* frequencies.txt in Resources */,
+				3E3614E62861606F00A019D0 /* Roboto-BoldItalic.ttf in Resources */,
+				3E20EF1C2855055F006E11CE /* transfers.txt in Resources */,
+				3E3614E12861606F00A019D0 /* Roboto-ThinItalic.ttf in Resources */,
+				3E20EF1E2855055F006E11CE /* calendar_dates.txt in Resources */,
+				3E64A62B2859281100901447 /* RobotoCondensed-Regular.ttf in Resources */,
+				3E3614E82861606F00A019D0 /* Roboto-Regular.ttf in Resources */,
+				3E20EF602855A888006E11CE /* train_stops.txt in Resources */,
+				3E3614E42861606F00A019D0 /* Roboto-MediumItalic.ttf in Resources */,
+				3E64A62F2859281100901447 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				3E3614EA2861606F00A019D0 /* Roboto-Light.ttf in Resources */,
+				3E3614E92861606F00A019D0 /* Roboto-Black.ttf in Resources */,
+				3E3614E02861606F00A019D0 /* Roboto-Bold.ttf in Resources */,
+				3E64A62C2859281100901447 /* RobotoCondensed-Bold.ttf in Resources */,
+				3E3614EB2861606F00A019D0 /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		795C31048CD5030FF3D4EF10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transit/Pods-Transit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transit/Pods-Transit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Transit/Pods-Transit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A9D30C12337CABC10C41E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Transit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3E6194FB284B02FA006398DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E20EF2828551325006E11CE /* CoreDataManager.swift in Sources */,
+				3E619517284B04EA006398DD /* NetworkManager.swift in Sources */,
+				3E619515284B037C006398DD /* Utils.swift in Sources */,
+				3E20EF4B2855577B006E11CE /* LocationManager.swift in Sources */,
 				3E619505284B02FA006398DD /* ContentView.swift in Sources */,
+				3E41547E2854EC3900D2A0A1 /* Functions.swift in Sources */,
+				3EDCBEC1286029840096AEA2 /* MapButton.swift in Sources */,
+				3EE84B902860F48E0027EFFB /* ViewMods.swift in Sources */,
+				3EE570F8285474A10049490B /* ResponseModels.swift in Sources */,
+				3E20EF4928554164006E11CE /* DataModels.swift in Sources */,
+				3E1B4A6C285BEB5100174199 /* TransitDataModel.xcdatamodeld in Sources */,
 				3E619503284B02FA006398DD /* TransitApp.swift in Sources */,
+				3EE84B8D2860EB370027EFFB /* StopDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +406,7 @@
 		3E61950B284B02FD006398DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -208,6 +467,7 @@
 		3E61950C284B02FD006398DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -252,6 +512,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -261,6 +522,7 @@
 		};
 		3E61950E284B02FD006398DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B4CE72110E7DF2E659F9B2 /* Pods-Transit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,11 +532,12 @@
 				DEVELOPMENT_TEAM = 77WLG383N2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Transit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +553,7 @@
 		};
 		3E61950F284B02FD006398DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC6E993EFD0FCDF563B694AA /* Pods-Transit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,11 +563,12 @@
 				DEVELOPMENT_TEAM = 77WLG383N2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Transit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +604,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E1B4A6A285BEB5100174199 /* TransitDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E1B4A6B285BEB5100174199 /* TransitDataModel.xcdatamodel */,
+			);
+			currentVersion = 3E1B4A6B285BEB5100174199 /* TransitDataModel.xcdatamodel */;
+			path = TransitDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3E6194F7284B02FA006398DD /* Project object */;
 }

@@ -7,11 +7,16 @@
 
 import SwiftUI
 
+
 @main
 struct TransitApp: App {
+    
+    @StateObject private var coreData = CoreDataManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, coreData.container.viewContext)
         }
     }
 }
